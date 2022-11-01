@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The predicted charges for medical insuarance</title>
+</head>
+<body style ="background-color: rgba(18, 115, 194, 0.562);">
+    <center>
+
+    <h1>predicted charges</h1>
+    <form method ="POST" action="/predicted_charges">
+
+        <label>age :</label>
+        <input type ="number" name="age">
+        </select>
+
+        <br>
+        <br>
+
+        <label>sex :</label>
+        <input type ="text" name="sex">
+        </select>
+
+        <br>
+        <br>
+
+        <label>bmi :</label>
+        <input type ="number" name="bmi">
+        </select>
+
+        <br>
+        <br>
+
+        <label>children :</label>
+        <input type ="number" name="children">
+        </select>
+
+        <br>
+        <br>
+
+        <label>smoker :</label>
+        <input type ="text" name="smoker">
+        </select>
+
+        <br>
+        <br>
+
+        <label>region :</label>
+        <input type ="text" name="region">
+        </select>
+
+
+        <br>
+        <br>
+        <input type="submit" value="SUBMIT">
+        <br>
+
+        <p> The predicted charges for medical insuarance <b>{{premium}}</b> .</p>
+
+        </center>
+
+    </form>
+    
+</body>
+</html>
